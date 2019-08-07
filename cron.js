@@ -19,7 +19,7 @@ var flexGlobalCheckout = new cron.CronJob({
 		}
 		else
 		{
-		 	console.log("job flexGlobalCheckoutStaging - Error: env variable FLEX_CHECKOUT_URL not set");
+		 	console.log("job flexGlobalCheckout - Error: env variable FLEX_CHECKOUT_URL not set");
 		}
 	},
 	start: true,
@@ -44,7 +44,7 @@ var flexGlobalCheckout2 = new cron.CronJob({
 		}
 		else
 		{
-		 	console.log("job flexGlobalCheckoutStaging - Error: env variable FLEX_CHECKOUT_URL not set");
+		 	console.log("job flexGlobalCheckout2 - Error: env variable FLEX_CHECKOUT_URL not set");
 		}
 	},
 	start: true,
