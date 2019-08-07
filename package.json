@@ -4,12 +4,13 @@
   "description": "NodeJs app to run cron jobs",
   "main": "cron.js",
   "scripts": {
-    "start": "node cron.js"
+    "start": "node index.js"
   },
   "author": "Alsace Digitale",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
-    "cron": "^1.7.1"
+    "cron": "^1.7.1",
+    "express": "^4.17.1"
   }
 }
