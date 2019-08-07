@@ -1,0 +1,12 @@
+{
+  "name": "ad-cronjobs",
+  "version": "1.0.0",
+  "description": "NodeJs app to run cron jobs",
+  "main": "cron.js",
+  "author": "Alsace Digitale",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cron": "^1.7.1"
+  }
+}
