@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "NodeJs app to run cron jobs",
   "main": "cron.js",
+  "scripts": {
+    "start": "node cron.js"
+  },
   "author": "Alsace Digitale",
   "license": "ISC",
   "dependencies": {
