@@ -1,6 +1,8 @@
 var cron = require('cron');
 var axios = require('axios');
 
+console.log('ad-cronjobs is running');
+
 // checks out coworkers who forgot to check out manually
 var flexGlobalCheckout = new cron.CronJob({
 	cronTime: process.env.FLEX_CHECKOUT_TIME || '2 0 * * *',
