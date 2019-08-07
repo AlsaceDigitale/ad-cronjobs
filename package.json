@@ -4,7 +4,8 @@
   "description": "NodeJs app to run cron jobs",
   "main": "cron.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node cron.js",
+    "web": "node index.js"
   },
   "author": "Alsace Digitale",
   "license": "ISC",

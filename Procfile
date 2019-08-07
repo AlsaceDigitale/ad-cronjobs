@@ -1,2 +1,2 @@
-web: node index.js
-clock: node cron.js
+web: npm run web
+clock: npm start
